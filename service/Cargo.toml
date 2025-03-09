@@ -1,0 +1,13 @@
+[package]
+name = "posts-service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.8.1"
+chrono = "0.4.40"
+dotenv = "0.15.0"
+serde = { version = "1.0.218", features = ["derive"]}
+sqlx = { version = "0.8.3", features = ["postgres", "runtime-tokio-native-tls", "derive"]}
+tokio = { version = "1.43.0", features = ["full"] }
+tokio-stream = "0.1.17"
