@@ -1,0 +1,1 @@
+export { MPost } from './model/post';
